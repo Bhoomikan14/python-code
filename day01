@@ -1,1 +1,174 @@
+"""d="hi"
+f=['python','sql']
+z=[]
+i=0
+while i<len[d] and len[d] :
+    zd[i]=f"""
+"""n=6
+n= int(input(1))
+i=1
+while i<n:
+    if n%i==0:
+        sum = sum+i
+    i=i+1
+if sum==n:
+    print("perfect")
+else:
+    print("not p")"""
+"""2.i=2
+n=5
+if n<2:
+    print("not prime")
+while i<n:
+    if n%i==0:
+        print("not p")
+        break
+    i=i+1
+else:
+    print("prime")"""
+
+"""a=['python','sql'] 
+b={}
+while"""
+#  for loop
+# for i in range (0,11):
+#     print(i)
+"""d=['python','sql']
+e=[6,3]
+a={}
+i=0
+while i<len(d):
+   a[d[i]]=len(d[i])
+   i=i+1
+print(a)"""
+
+"""d = ['python', 'sql']
+a = {}
+
+for item in d:
+    a[item] = len(item)
+
+print(a)"""
+"""d = ['python', 'sql']
+a = {}
+
+for i in d:
+    count = 0
+    for j in i:
+        count += 1
+    a[i]=count
+
+print(a)"""
+
+"""d=['hello','hi']
+
+f=[]
+for i in d:
+    c=0
+    for j in i:
+        if j in ('aeiouAEIOU'):
+            c += 1
+
+    f=f+[c]
+
+print(f)"""
+
+"""d=["python","workshop"]
+f=[]
+for i in d:
+    c = 0
+
+    for j in range(len(i)):
+        if j%2==0:
+            c += 1
+    f=f+[c]
+print(f)"""
+"""z = 'aabbcc'
+f= {}
+for i in z:
+    if i in f:
+        f[i] += 1
+    else:
+        f[i] = 1
+result = ""
+for j in f:
+    result += f"{j}{f[j]}"
+
+print(result)"""
+
+'''z = 'aabbcca'
+e =''
+for i in z:
+    if i not in e:
+        count=0
+        for j in z:
+          if i ==j:
+              count+=1
+        e=e+i+str(count)
+print(e)'''
+
+'''z = 'aabbcc'
+e=''
+d=''
+a=''
+for i in z:
+    if i not in e:
+        count=0
+        for j in z:
+          if i ==j:
+              count+=1
+        e=e+i
+        d+=str(count)
+        a=e+d
+
+print(a)'''
+
+# function-block of code performs specific tasks
+
+'''def add(a,b):
+    sum=a+b
+    print(sum)
+add(2,3)'''
+'''def add(a,b):
+    return a+b
+
+
+print(add(2,3))
+'''
+'''def fact(n):
+    if n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(4))'''
+'''def even(n):
+    if n%2==0:
+        print("even")
+    else:
+        print("not even")
+
+even(4)'''
+
+'''def sum(*a):
+    return a
+print(sum(2,3,4))
+def display(*a):
+    print(a)
+display(1,2,3,'hello')'''
+'''def display(**b):
+    print (b)
+display(1=2,'hi'=9)'''
+'''def display(a,b,c):
+    print(a,b,c)
+display(*(1,2,3))'''
+'''def display(a,b,c):
+    print(a,b,c)
+display(*{'h':1,'b':2,'e':3})'''
+def c(*a,**b):
+    print(a)
+    print(b)
+c(1,2,3,h=2,e=4)
+
+
+
 
